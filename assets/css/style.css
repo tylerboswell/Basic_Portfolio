@@ -1,0 +1,218 @@
+.container 
+{
+    max-width: 960px;
+    margin: auto;
+}
+    
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 0px;
+    width: 120px;
+}
+
+.button 
+{
+    background-color:#f0f0f0;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    border: 2px solid #f0f0f0;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+.button:hover
+{
+    background-color:transparent
+}
+a 
+{
+    text-decoration-line: none;
+    color: black;
+}
+nav 
+{
+    float: right;
+    padding: 0px;
+   
+}
+
+header 
+{
+    position: sticky;
+    background-color:#F0F0F0;
+    height: 84px;
+    line-height: 2.1;
+    margin-top: 25px;
+}
+
+.myimage 
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+  
+
+body 
+{
+    background-image: url(../images/background.jpg);
+}
+
+.container-body 
+{
+    background-color: #F0F0F0;
+    max-width: 650px; 
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 22.5px;
+    margin-left: 240px;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+
+}
+
+h1{
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 53px;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius:8px;
+}
+
+h1:hover
+{
+    background-color: #49a9a6;
+    
+}
+
+h2
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 38px;
+    line-height: 1.8;
+    
+    
+}
+.horizontalrule
+{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    
+}
+
+.connections
+{
+    position: relative;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    background-color:#F0F0F0;
+    border-radius: 2px;
+    width: 250px;
+    height: 220px;
+    float: right;
+    padding:12.5px;
+    bottom: 400px;
+    right: 238px;
+    transition: ease-in-out 0.3s;
+}
+
+
+.icons
+{
+    display:inline-block;
+    font-size: 30px;
+}
+   
+.linkedin:hover
+{
+    font-size:  150%;
+}
+.github:hover
+{
+    font-size:150%;
+}
+    .instagram:hover{
+    font-size:150%;
+}
+
+footer 
+{
+    text-align: left;
+    background-color:#F0F0F0;
+    height: 70px;
+    margin-top: 25px;
+    
+}
+footer:hover
+{
+    background-color: transparent;
+}
+
+form 
+{
+    text-align: center;
+}
+input 
+{
+    border: 2px solid;
+    border-color:#F0F0F0;
+    border-radius: 4px;
+}
+.container-body-contact 
+{
+    background-color: #F0F0F0;
+    max-width: 650px; 
+    height: 400px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-left: 240px;
+}
+
+.column 
+{
+    columns: 3;
+}
+
+.projects 
+{
+    background-color:#49a9a6;
+    border: solid 2px #49a9a6;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: auto;
+    transition: all ease-in-out .3s;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+}
+
+.projects:hover 
+{
+    background-color: transparent;
+    border-color:transparent;
+}
