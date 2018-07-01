@@ -1,7 +1,6 @@
 .container 
 {
-    max-width: 960px;
-    margin: auto;
+    margin-left: 15px
 }
     
 ul 
@@ -17,8 +16,8 @@ ul
 .button 
 {
     background-color:#f0f0f0;
-    font-family:'Raleway', sans-serif;
-    font-size: 18px;
+    font-family:'Comic Sans MS', sans-serif;
+    font-size: 15px;
     border: 2px solid #f0f0f0;
     border-radius: 0px;
     cursor: pointer;
@@ -73,19 +72,20 @@ body
     height: 400px;
     margin: auto;
     margin-top: 25px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     font-weight: 100;
     line-height: 22.5px;
-    margin-left: 240px;
+    margin-left: 10px;
     transition: ease-in-out .3s;
     cursor: pointer;
 
 }
 
-h1{
+h1
+{
     display: inline-block;
     margin: 0px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     letter-spacing: 1px;
     font-size: 53px;
     background-color: #f0f0f0;
@@ -95,15 +95,11 @@ h1{
     border-radius:8px;
 }
 
-h1:hover
-{
-    background-color: #49a9a6;
-    
-}
+
 
 h2
 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
     padding-left: 38px;
@@ -122,7 +118,7 @@ h2
 .connections
 {
     position: relative;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
     font-size: 28px;
     letter-spacing: 1px;
@@ -134,7 +130,26 @@ h2
     float: right;
     padding:12.5px;
     bottom: 400px;
-    right: 238px;
+    right: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.Youtube
+{
+    position: relative;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    background-color:#F0F0F0;
+    border-radius: 2px;
+    width: 550px;
+    height: 350px;
+    float: right;
+    padding:12.5px;
+    bottom: 400px;
+    right: 8px;
     transition: ease-in-out 0.3s;
 }
 
@@ -165,10 +180,6 @@ footer
     margin-top: 25px;
     
 }
-footer:hover
-{
-    background-color: transparent;
-}
 
 form 
 {
@@ -187,7 +198,7 @@ input
     height: 400px;
     margin: auto;
     margin-top: 25px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     font-weight: 100;
     margin-left: 240px;
 }
@@ -199,8 +210,8 @@ input
 
 .projects 
 {
-    background-color:#49a9a6;
-    border: solid 2px #49a9a6;
+    background-color:#F0F0F0;
+    border: solid 2px #F0F0F0;
     border-radius: 4px;
     padding: 5px;
     max-width: auto;
@@ -209,10 +220,4 @@ input
     font-weight: 800;
     margin-bottom: 10px;
     
-}
-
-.projects:hover 
-{
-    background-color: transparent;
-    border-color:transparent;
 }
